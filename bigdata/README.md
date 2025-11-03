@@ -135,7 +135,6 @@
 
 ---
 
-如果你现在想要某个主题的深挖（例如“只看 data-observability 的开源项目并按 feature 比较”或“给我 10 个适合做 lakehouse PoC 的项目并附部署建议”），告诉我主题我直接把该小组的 Top10 做成对比表。
 
 [1]: https://github.com/gunnarmorling/awesome-opensource-data-engineering?utm_source=chatgpt.com "An Awesome List of Open-Source Data Engineering Projects"
 [2]: https://github.com/manuzhang/awesome-lakehouse?utm_source=chatgpt.com "manuzhang/awesome-lakehouse"
