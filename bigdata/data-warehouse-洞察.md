@@ -113,50 +113,7 @@ StarRocks 项目在 MPP 架构、分析计算能力、数据更新与版本管�
 
 通过对本企业、主要竞争对手在现代数据分析领域关键技术竞争维度上的估值，以雷达图形式直观展示技术差距，并评估 StarRocks 项目在这些维度上的表现。
 
-<!--
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#007bff', 'primaryTextColor':'#333', 'lineColor':'#28a745', 'secondaryColor':'#ffc107'}}}%%
-graph TB
-    subgraph Legend[图例（Legend）]
-        L1[蓝色（Blue）: 本企业（Our Company）]
-        L2[红色（Red）: 竞品 AnalyticDB]
-        L3[绿色（Green）: StarRocks 项目（StarRocks Project）]
-    end
 
-    subgraph RadarChart[技术竞争力对比雷达图<br/>Technical Competitiveness Radar Chart]
-        direction TB
-        RC1[分析计算能力<br/>Analytical Capability: 10]
-        RC2[数据更新效率<br/>Update Efficiency: 10]
-        RC3[多源集成能力<br/>Multi-Source Integration: 10]
-        RC4[存储成本优化<br/>Storage Cost Optimization: 10]
-        RC5[湖仓架构成熟度<br/>Lakehouse Maturity: 10]
-        RC6[生态扩展性<br/>Ecosystem Extensibility: 10]
-        
-        RC1 -.本企业: 6.-> RC2
-        RC2 -.本企业: 5.-> RC3
-        RC3 -.本企业: 6.-> RC4
-        RC4 -.本企业: 7.-> RC5
-        RC5 -.本企业: 5.-> RC6
-        RC6 -.本企业: 6.-> RC1
-        
-        RC1 ==竞品: 9==> RC2
-        RC2 ==竞品: 8==> RC3
-        RC3 ==竞品: 8==> RC4
-        RC4 ==竞品: 7==> RC5
-        RC5 ==竞品: 9==> RC6
-        RC6 ==竞品: 8==> RC1
-        
-        RC1 --StarRocks: 9-- RC2
-        RC2 --StarRocks: 9-- RC3
-        RC3 --StarRocks: 8-- RC4
-        RC4 --StarRocks: 9-- RC5
-        RC5 --StarRocks: 8-- RC6
-        RC6 --StarRocks: 9-- RC1
-    end
-
-    Legend --> RadarChart
-```
--->
 
 **图2.5-1 现代数据分析领域关键维度对比雷达图**
 
