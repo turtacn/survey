@@ -113,6 +113,7 @@ StarRocks 项目在 MPP 架构、分析计算能力、数据更新与版本管�
 
 通过对本企业、主要竞争对手在现代数据分析领域关键技术竞争维度上的估值，以雷达图形式直观展示技术差距，并评估 StarRocks 项目在这些维度上的表现。
 
+<!--
 ```mermaid
 %%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#007bff', 'primaryTextColor':'#333', 'lineColor':'#28a745', 'secondaryColor':'#ffc107'}}}%%
 graph TB
@@ -155,6 +156,7 @@ graph TB
 
     Legend --> RadarChart
 ```
+-->
 
 **图2.5-1 现代数据分析领域关键维度对比雷达图**
 
