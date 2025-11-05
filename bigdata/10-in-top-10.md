@@ -16,11 +16,11 @@
 
 
 * [1]: ["Apache Hadoop"](https://hadoop.apache.org/?utm_source=chatgpt.com) 
-* [2]: https://www.starrocks.io/?utm_source=chatgpt.com "StarRocks: The world's fastest open query engine for sub-second analytics both on and off the data lakehouse. "
-* [3]: https://hudi.apache.org/?utm_source=chatgpt.com "Apache Hudi | An Open Source Data Lake Platform | Apache Hudi"
-* [4]: https://delta.io/?utm_source=chatgpt.com "Delta Lake: Home"
-* [5]: https://aws.amazon.com/what-is/apache-kafka/?utm_source=chatgpt.com "What is Kafka? - Apache Kafka Explained"
-* [6]: https://airbyte.com/?utm_source=chatgpt.com "Airbyte | Open-Source Data Integration Platform | ELT Tool"
-* [7]: https://www.dremio.com/blog/open-source-and-the-data-lakehouse-apache-arrow-apache-iceberg-nessie-and-dremio/?utm_source=chatgpt.com "Open Source and the Data Lakehouse Stack | Dremio"
-* [8]: https://www.decube.io/post/open-source-data-observability?utm_source=chatgpt.com "Open Source Data Observability: Pros, Cons, Alternatives"
-* [9]: https://github.com/Arize-ai/phoenix?utm_source=chatgpt.com "Arize-ai/phoenix: AI Observability & Evaluation"
+* [2]: ["StarRocks: The world's fastest open query engine for sub-second analytics both on and off the data lakehouse. "](https://www.starrocks.io/?utm_source=chatgpt.com)
+* [3]: ["Apache Hudi | An Open Source Data Lake Platform | Apache Hudi"](https://hudi.apache.org/?utm_source=chatgpt.com)
+* [4]: ["Delta Lake: Home"](https://delta.io/?utm_source=chatgpt.com) 
+* [5]: ["What is Kafka? - Apache Kafka Explained"](https://aws.amazon.com/what-is/apache-kafka/?utm_source=chatgpt.com) 
+* [6]: ["Airbyte | Open-Source Data Integration Platform | ELT Tool"](https://airbyte.com/?utm_source=chatgpt.com) 
+* [7]: ["Open Source and the Data Lakehouse Stack | Dremio"](https://www.dremio.com/blog/open-source-and-the-data-lakehouse-apache-arrow-apache-iceberg-nessie-and-dremio/?utm_source=chatgpt.com) 
+* [8]: ["Open Source Data Observability: Pros, Cons, Alternatives"](https://www.decube.io/post/open-source-data-observability?utm_source=chatgpt.com) 
+* [9]: ["Arize-ai/phoenix: AI Observability & Evaluation"](https://github.com/Arize-ai/phoenix?utm_source=chatgpt.com)
