@@ -14,14 +14,13 @@
 | Data for AI                  | Delta Lake ([https://delta.io/](https://delta.io/))                                                                                       | 虽然前面已用于 Lakehouse，但 Delta Lake 在“为 AI 提供数据基础”（如高质量、可变更、可追溯的数据集）方面也极具代表性。                                            |
 | AI for Data                  | Arize Phoenix ([https://github.com/arize-ai/phoenix](https://github.com/arize-ai/phoenix))                                                | Arize Phoenix 是一个开源 AI 观测/评估平台，用于监控、分析、纠正用 AI 驱动的数据系统，从“AI 用于数据”这一方向来看代表性较强。 ([GitHub][9])                          |
 
-如果你愿意，我可以 **为每一个项目**补充：GitHub 链接、核心功能点、适用场景、优缺点。（也可以只选你感兴趣的几个主题）你看要不要？
 
-[1]: https://hadoop.apache.org/?utm_source=chatgpt.com "Apache Hadoop"
-[2]: https://clickhouse.com/?utm_source=chatgpt.com "ClickHouse: Fast Open-Source OLAP DBMS"
-[3]: https://hudi.apache.org/?utm_source=chatgpt.com "Apache Hudi | An Open Source Data Lake Platform | Apache Hudi"
-[4]: https://delta.io/?utm_source=chatgpt.com "Delta Lake: Home"
-[5]: https://aws.amazon.com/what-is/apache-kafka/?utm_source=chatgpt.com "What is Kafka? - Apache Kafka Explained"
-[6]: https://airbyte.com/?utm_source=chatgpt.com "Airbyte | Open-Source Data Integration Platform | ELT Tool"
-[7]: https://www.dremio.com/blog/open-source-and-the-data-lakehouse-apache-arrow-apache-iceberg-nessie-and-dremio/?utm_source=chatgpt.com "Open Source and the Data Lakehouse Stack | Dremio"
-[8]: https://www.decube.io/post/open-source-data-observability?utm_source=chatgpt.com "Open Source Data Observability: Pros, Cons, Alternatives"
-[9]: https://github.com/Arize-ai/phoenix?utm_source=chatgpt.com "Arize-ai/phoenix: AI Observability & Evaluation"
+* [1]: https://hadoop.apache.org/?utm_source=chatgpt.com "Apache Hadoop"
+* [2]: https://www.starrocks.io/?utm_source=chatgpt.com "StarRocks: The world's fastest open query engine for sub-second analytics both on and off the data lakehouse. "
+* [3]: https://hudi.apache.org/?utm_source=chatgpt.com "Apache Hudi | An Open Source Data Lake Platform | Apache Hudi"
+* [4]: https://delta.io/?utm_source=chatgpt.com "Delta Lake: Home"
+* [5]: https://aws.amazon.com/what-is/apache-kafka/?utm_source=chatgpt.com "What is Kafka? - Apache Kafka Explained"
+* [6]: https://airbyte.com/?utm_source=chatgpt.com "Airbyte | Open-Source Data Integration Platform | ELT Tool"
+* [7]: https://www.dremio.com/blog/open-source-and-the-data-lakehouse-apache-arrow-apache-iceberg-nessie-and-dremio/?utm_source=chatgpt.com "Open Source and the Data Lakehouse Stack | Dremio"
+* [8]: https://www.decube.io/post/open-source-data-observability?utm_source=chatgpt.com "Open Source Data Observability: Pros, Cons, Alternatives"
+* [9]: https://github.com/Arize-ai/phoenix?utm_source=chatgpt.com "Arize-ai/phoenix: AI Observability & Evaluation"
