@@ -15,7 +15,7 @@
 | AI for Data                  | Arize Phoenix ([https://github.com/arize-ai/phoenix](https://github.com/arize-ai/phoenix))                                                | Arize Phoenix 是一个开源 AI 观测/评估平台，用于监控、分析、纠正用 AI 驱动的数据系统，从“AI 用于数据”这一方向来看代表性较强。 ([GitHub][9])                          |
 
 
-* [1]: https://hadoop.apache.org/?utm_source=chatgpt.com "Apache Hadoop"
+* [1]: ["Apache Hadoop"](https://hadoop.apache.org/?utm_source=chatgpt.com) 
 * [2]: https://www.starrocks.io/?utm_source=chatgpt.com "StarRocks: The world's fastest open query engine for sub-second analytics both on and off the data lakehouse. "
 * [3]: https://hudi.apache.org/?utm_source=chatgpt.com "Apache Hudi | An Open Source Data Lake Platform | Apache Hudi"
 * [4]: https://delta.io/?utm_source=chatgpt.com "Delta Lake: Home"
