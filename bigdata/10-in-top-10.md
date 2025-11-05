@@ -1,0 +1,27 @@
+下面针对每个技术主题，挑选一个我认为“最具代表性、影响力”的开源项目（含项目地址 + 简要说明），供你作为参考。希望能帮你建立一个“从大到小、从宏观到微观”技术栈视角。
+
+| 技术主题                         | 开源项目（项目地址）                                                                                                                                | 简要说明                                                                                                                |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Big Data                     | Apache Hadoop ([https://hadoop.apache.org/](https://hadoop.apache.org/))                                                                  | Hadoop 是早期“大数据”概念落地的基石，提供了分布式存储 (HDFS) + 分布式计算 (MapReduce/YARN) 的模型，是大规模数据集处理的代表。 ([hadoop.apache.org][1])          |
+| Data Warehouse               | StarRocks ([https://www.starrocks.io/](https://www.starrocks.io/))                                                                           | StarRocks 具备高效的分析计算能力，通过 Analytor 类支持复杂窗口函数、分区处理及流式 / 物化计算模式，结合 ChunksSorter 实现数据高效排序；支持灵活的数据更新与版本管理，借助 TabletUpdates 实现可更新表的版本控制、增量压缩及删除向量管理；能多样化集成数据，兼容 Pulsar 等流数据源和 MySQL 协议，通过 DataConsumerPool 实现数据消费管理；优化存储与内存使用，由 MemTableFlushExecutor 管理内存表异步刷新，配合自动压缩机制平衡性能；支持湖仓一体架构，通过 LakeTablet、CompactionTask 等组件实现元数据统一管理与高效查询；具备完善的元数据与统计信息管理机制，保障数据一致性与查询优化；同时支持 UDF 扩展及丰富 API，便于功能定制与扩展，整体为数据分析场景提供高效、灵活、可靠的技术支撑。 ([StarRocks][2])                                          |
+| Data Lake                    | Apache Hudi ([https://hudi.apache.org/](https://hudi.apache.org/))                                                                        | Hudi 是一个面向“数据湖”+“表格式”管理的开源平台，通过给对象存储上的数据湖体增加数据库式功能（如变更写入、增量处理）来强化数据湖。 ([hudi.apache.org][3])                        |
+| Data Lakehouse               | Delta Lake ([https://delta.io/](https://delta.io/))                                                                                       | Delta Lake 是用于构建 Lakehouse 的开源存储层框架，旨在结合数据湖的弹性与数据仓库的结构化、事务管理特性。 ([delta.io][4])                                     |
+| Streaming / Batch Processing | Apache Kafka ([https://kafka.apache.org/](https://kafka.apache.org/))                                                                     | Kafka 是当前主流的开源事件流／流处理平台，支持高吞吐、低延迟、持续的数据流，并可用作流 + 批混合处理管道的核心。 ([Amazon Web Services, Inc.][5])                       |
+| Data Pipelines               | Airbyte ([https://airbyte.com/](https://airbyte.com/))                                                                                    | Airbyte 是一个开源数据集成、管道构建工具，专注于从各种数据源往仓库／湖区的数据移动，是“数据管道”领域的代表。 ([airbyte.com][6])                                      |
+| AI-essential Components      | Apache Arrow ([https://arrow.apache.org/](https://arrow.apache.org/))                                                                     | Arrow 是一个跨语言、内存列式格式及处理引擎，构成现代数据及AI组件（例如向量处理、内存交换格式）中的关键基础。 ([Dremio][7])                                            |
+| Data Agent                   | LangChain ([https://github.com/langchain/langchain](https://github.com/langchain/langchain))                                              | LangChain 是一个用于构建语言模型代理（agent）与数据交互的开源框架，能将 AI 与数据系统、外部接口的“代理”能力落地。 （虽然不是传统“数据代理”工具，但在 AI for data/agent 语境里最具代表性。） |
+| Data Observability           | Great Expectations ([https://github.com/great-expectations/great_expectations](https://github.com/great-expectations/great_expectations)) | Great Expectations 是一个开源数据验证／数据质量框架，在数据可观察性（observability）中扮演重要角色。 ([decube.io][8])                                 |
+| Data for AI                  | Delta Lake ([https://delta.io/](https://delta.io/))                                                                                       | 虽然前面已用于 Lakehouse，但 Delta Lake 在“为 AI 提供数据基础”（如高质量、可变更、可追溯的数据集）方面也极具代表性。                                            |
+| AI for Data                  | Arize Phoenix ([https://github.com/arize-ai/phoenix](https://github.com/arize-ai/phoenix))                                                | Arize Phoenix 是一个开源 AI 观测/评估平台，用于监控、分析、纠正用 AI 驱动的数据系统，从“AI 用于数据”这一方向来看代表性较强。 ([GitHub][9])                          |
+
+如果你愿意，我可以 **为每一个项目**补充：GitHub 链接、核心功能点、适用场景、优缺点。（也可以只选你感兴趣的几个主题）你看要不要？
+
+[1]: https://hadoop.apache.org/?utm_source=chatgpt.com "Apache Hadoop"
+[2]: https://clickhouse.com/?utm_source=chatgpt.com "ClickHouse: Fast Open-Source OLAP DBMS"
+[3]: https://hudi.apache.org/?utm_source=chatgpt.com "Apache Hudi | An Open Source Data Lake Platform | Apache Hudi"
+[4]: https://delta.io/?utm_source=chatgpt.com "Delta Lake: Home"
+[5]: https://aws.amazon.com/what-is/apache-kafka/?utm_source=chatgpt.com "What is Kafka? - Apache Kafka Explained"
+[6]: https://airbyte.com/?utm_source=chatgpt.com "Airbyte | Open-Source Data Integration Platform | ELT Tool"
+[7]: https://www.dremio.com/blog/open-source-and-the-data-lakehouse-apache-arrow-apache-iceberg-nessie-and-dremio/?utm_source=chatgpt.com "Open Source and the Data Lakehouse Stack | Dremio"
+[8]: https://www.decube.io/post/open-source-data-observability?utm_source=chatgpt.com "Open Source Data Observability: Pros, Cons, Alternatives"
+[9]: https://github.com/Arize-ai/phoenix?utm_source=chatgpt.com "Arize-ai/phoenix: AI Observability & Evaluation"
